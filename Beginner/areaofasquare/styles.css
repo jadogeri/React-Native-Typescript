@@ -1,0 +1,29 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+td, tr {
+    width: 200px;
+    
+}
+
+button{
+    width:100px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+
+/* .container {
+    background-color: white;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    right: 300px;
+
+   
+} */
