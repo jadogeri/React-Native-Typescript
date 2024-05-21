@@ -47,8 +47,7 @@ Click on the link - [How to set up Typescript](https://www.typescriptlang.org/do
 
 #### Get Project 
 
-1. Download from Github
-2. Clone the project 
+Get project by downloading from github or cloning the project.
 
 1. Download from Github
 . Navigate to project using link [Area of a Square Link](https://github.com/jadogeri/Typescript)
@@ -75,7 +74,7 @@ Go to the project directory
   cd Typescript/Beginner/areaofasquare
 ```
 
-Start project
+### Start project
 
 1. If Visual Studio Code has been installed, Open Visual Studio Code. If visual studio code is not installed , [Click Here](https://code.visualstudio.com/download).
 2. On the top tab bar, select File --> Open Folder.
