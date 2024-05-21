@@ -20,33 +20,33 @@ export default function App() {
 
    return (
     <div  style={styles.container}> 
-      <table>
-      <tr>
-        <th colSpan={2}>Area Of A Square</th>
-      </tr>
-      <tr>
-        <td>Sample Input</td>
-        <td>Sample Output</td>
+      <table style={styles.container}>
+        <tbody>
+          <tr>
+            <th colSpan={2}>Area Of A Square</th>
+          </tr>
+          <tr>
+            <td>Sample Input</td>
+            <td>Sample Output</td>
 
-      </tr>
-      <tr>
-        <td>{<InputField 
-                placeholder={'Enter Input Here ...'}
-                type="number"                
-                onChange={handleTextChange}
-                id="input"
-                
-        
-        />}</td>
-        <td>{area}</td>
-      </tr>
-      <tr>
-       <td colSpan={2}>
-        <button onClick={()=>{setArea(getArea(radius))}}>Press Enter</button>
+          </tr>
+          <tr>
+            <td>{<InputField 
+                    placeholder={'Enter Input Here ...'}
+                    type="number"                
+                    onChange={handleTextChange}
+                    id="input"                    
+            
+              />}</td>
+              <td>{area}</td>
+            </tr>
+          <tr>
+            <td colSpan={2}>
+              <button onClick={()=>{setArea(getArea(radius))}}>Press Enter</button>
 
-       </td>
-      </tr>
-
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );
