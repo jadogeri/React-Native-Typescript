@@ -5,8 +5,6 @@ import { getArea } from './utils/getArea';
 import InputField from './components/InputField';
 
 
-
-
 export default function App() {
   const [radius , setRadius] = useState<number>(0);
   const [area , setArea] = useState<number>(0);
@@ -20,7 +18,7 @@ export default function App() {
 
    return (
     <div  style={styles.container}> 
-      <table style={styles.container}>
+      <table >
         <tbody>
           <tr>
             <th colSpan={2}>Area Of A Square</th>
@@ -35,11 +33,12 @@ export default function App() {
                     placeholder={'Enter Input Here ...'}
                     type="number"                
                     onChange={handleTextChange}
-                    id="input"                    
-            
-              />}</td>
-              <td>{area}</td>
-            </tr>
+                    id="input" 
+                  />
+                }
+              </td>
+            <td>{area}</td>
+          </tr>
           <tr>
             <td colSpan={2}>
               <button onClick={()=>{setArea(getArea(radius))}}>Press Enter</button>
@@ -59,7 +58,9 @@ const styles = StyleSheet.create({
     alignItems:"center",
     alignContent:"center",
     alignSelf:"center",
-    marginLeft:"40%"
+    marginRight : "30%",
+    marginLeft : "30%"
+
     
   }
 })
