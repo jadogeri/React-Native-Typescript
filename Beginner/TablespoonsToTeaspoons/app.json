@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AreaOfASquare",
-    "slug": "AreaOfASquare",
+    "name": "TablespoonsToTeaspoons",
+    "slug": "TablespoonsToTeaspoons",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
