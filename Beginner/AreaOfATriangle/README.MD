@@ -11,7 +11,7 @@ This app takes in float or int as radius, calculate the area of a square
 
 ## Lab
 
-- ![Lab](assets/images/1%20AreaOfASquare.png)  
+- ![Lab](assets/images/lab.png)  
 
 
 ## Table of Contents
@@ -29,7 +29,7 @@ This app takes in float or int as radius, calculate the area of a square
 
 ## Screenshots
 
-![Screenshot 1](assets/images/screenshot1.png)    | 
+![Screenshot 1](assets/images/Screenshot.png)    | 
 
 ## Installation
 
@@ -50,7 +50,7 @@ Click on the link - [How to set up Typescript](https://www.typescriptlang.org/do
 Get project by downloading from github or cloning the project.
 
 1. Download from Github
-. Navigate to project using link [Area of a Square Link](https://github.com/jadogeri/Typescript)
+. Navigate to project using link [Area of a Triangle Link](https://github.com/jadogeri/Typescript)
 . Click on the code button.
 . Choose the option Download Zip .
 . Navigate to location where the zipped file was saved.
@@ -59,7 +59,7 @@ Get project by downloading from github or cloning the project.
 Go to the project directory
 
 ```bash
-   cd Typescript/Beginner/areaofasquare
+   cd Typescript/Beginner/AreaOfATriangle
 ```
 
 2. Clone the project 
@@ -71,7 +71,7 @@ Go to the project directory
 Go to the project directory
 
 ```bash
-  cd Typescript/Beginner/areaofasquare
+  cd Typescript/Beginner/AreaOfATriangle
 ```
 
 ### Start project
