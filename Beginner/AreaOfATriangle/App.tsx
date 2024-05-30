@@ -7,7 +7,6 @@ import { AREA, BASE, HEIGHT,TITLE } from './constants';
 
 
 export default function App() {
-  const [radius , setRadius] = useState<number>(0);
   const [base , setBase] = useState<number>(0);
   const [height , setHeight] = useState<number>(0);
 
